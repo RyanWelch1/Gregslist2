@@ -9,43 +9,45 @@
     <header> 
         <h1> Greg's List </h1>
         <nav class="top-nav" align="right">
-            <a href="" class= "nav-links"> Post </a>
-            <a href="" class= "nav-links"> Account </a>
+            <a href="" class="nav-links"> Post </a>
+            <a href="" class="nav-links"> Account </a>
         </nav>
     </header>
 
-    <div>
-    <br></br>
-        
-        <form>
-            <label for = "search">Search Jobs</label>
-            <input type= "text" id="search jobs" value= "Search Software Jobs" >
-            <input type= "image" class= "search button" src="magnifying-glass.png">
-        </form>
-    </div>
-    <div class= "pages">
-        <a class="pages-button">< prev</a>
-        <span class="pages-display">1 to 100 of 179</span>
-        <a class="pages-button">next></a>
-    </div>
-    <div>   
-        <ul class= "searchedItems">
-            <li class = "listing">
-                <span class= "date">June 22</span>
-                <a class="Title" href="">Technical Project Manager</a>
-                <span class= "location"> Midtown East</span>
-             </li>   
-            <li class = "listing">
-                <span class = "date">June 21</span>
-                <a class ="Title" href "">Frontend Developer</a>
-                <span class = "location"> SoHo</span>
-            </li>
-            <li class = "listing">
-                <span class = "date">June 20</span>
-                <a class = "Title" href="">Senior Python Developer/ Cofounder></a>
-                <span class = "location">Flatiron"</span>
-            </li>
-        </ul>
-
+    <section class="container">
+        <div>
+            <form>
+                <label for="search">Search Jobs</label>
+                <div class="input-wrapper">
+                    <input type="text" id="search-jobs" value="Search Software Jobs" >
+                    <input type="image" class="search-button" src="magnifying-glass.png">
+                </div>
+            </form>
+        </div>
+        <div class= "pages">
+            <a class="pages-button">< prev</a>
+            <span class="pages-display">1 to 100 of 179</span>
+            <a class="pages-button">next></a>
+        </div>
+        <div>   
+            <ul class= "searchedItems">
+                <li class="listing">
+                    <span class="date">June 22</span>
+                    <a class="Title" href="">Technical Project Manager</a>
+                    <span class="location"> Midtown East</span>
+                </li>   
+                <li class="listing">
+                    <span class="date">June 21</span>
+                    <a class="Title" href="">Frontend Developer</a>
+                    <span class="location"> SoHo</span>
+                </li>
+                <li class="listing">
+                    <span class="date">June 20</span>
+                    <a class="Title" href="">Senior Python Developer/ Cofounder></a>
+                    <span class="location">Flatiron"</span>
+                </li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>

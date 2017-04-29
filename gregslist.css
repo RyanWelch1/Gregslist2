@@ -1,32 +1,44 @@
 body {
     margin: 0;
-    padding: 80px;
 }
 
 
 header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
     background-color: grey;
-    top: 0;
-    right: 0;
-    left: 0;
-    padding: 10px;
-    position: fixed;
-   
 }
 
-.top-nav{
-    position: absolute;
-    right: 10px;
-    top: 10px;
+.top-nav{   
 }
 
 .nav-links{
-    font-size: 18px
-    padding:0 6px;
+    font-size: 18px;
+    padding: 0 6px;
 }
 
 a {
   text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    display: flex;
+    height: 40px;
+}
+
+#search-jobs {
+    flex-basis: 30%;
+}
+
+.search-button {
+    max-height: 100%;
 }
 
 
