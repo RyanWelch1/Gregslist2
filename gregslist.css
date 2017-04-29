@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 80px;
+}
+
+
+header {
+    background-color: grey;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+   
+}
+
+.top-nav{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nav-links{
+    font-size: 18px
+    padding:0 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
